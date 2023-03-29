@@ -14,17 +14,5 @@
                 "build_path": "/nitro-golang-example/enclave"
             }
         }
-    },
-    "instance": {
-        "docker": {
-            "image_name": "app_client",
-            "image_tag": "1.0",
-            "target": "",
-            "x86_64": {
-                "file_path": "/nitro-golang-example/parent",
-                "file_name": "Dockerfile",
-                "build_path": "/nitro-golang-example/parent"
-            }
-        }
     }
 }
