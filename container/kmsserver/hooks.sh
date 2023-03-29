@@ -42,18 +42,18 @@ spec:
         resources:
           limits:
             aws.ec2.nitro/nitro_enclaves: "1"
-            hugepages-2Mi: 512Mi
-            cpu: 250m
+            hugepages-2Mi: 768Mi
+            cpu: 1000m
           requests:
             aws.ec2.nitro/nitro_enclaves: "1"
-            hugepages-2Mi: 512Mi
+            hugepages-2Mi: 768Mi
       volumes:
       - name: hugepage-2mi
         emptyDir:
           medium: HugePages-2Mi
-      - name: hugepage-1gi
-        emptyDir:
-          medium: HugePages-1Gi
+      # - name: hugepage-1gi
+      #   emptyDir:
+      #     medium: HugePages-1Gi
       tolerations:
       - effect: NoSchedule
         operator: Exists
