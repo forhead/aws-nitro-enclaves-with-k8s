@@ -2,7 +2,7 @@
 # Copyright 2022 Amazon.com, Inc. or its affiliates. All Rights Reserved.
 
 readonly EIF_PATH="/home/enclave_server_go.eif"
-readonly ENCLAVE_CPU_COUNT=4
+readonly ENCLAVE_CPU_COUNT=2
 readonly ENCLAVE_MEMORY_SIZE=768
 
 main() {

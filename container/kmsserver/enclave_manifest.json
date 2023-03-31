@@ -1,7 +1,7 @@
 {
     "name": "nitro-examples",
     "repository": "https://github.com/forhead/nitro-examples.git",
-    "tag": "v1.0.5",
+    "tag": "v1.1.1",
     "eif": {
         "name": "enclave_server_go.eif",
         "docker": {
